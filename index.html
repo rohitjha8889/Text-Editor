@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1> Text-Editor</h1>
+        <div class="button_group">
+            <button class="btn" onclick="upperCase()">UpperCase</button>
+            <button class="btn" onclick="lowerCase()">LowerCase</button>
+            <button class="btn" onclick="bold_text()">Bold</button>
+            <button class="btn" onclick="italic_text()">Italic</button>
+        </div>
+
+        <textarea name="input_text" id="input_text" cols="30" rows="10"></textarea>
+
+
+        <div class="output_box">
+            <p id="out_para"></p>
+        </div>
+    </main>
+
+    <script src="button.js"></script>
+</body>
+
+</html>
